@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberAware | Cybersecurity Awareness Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="logo">🛡️ Cyber<span>Aware</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#learn">Learn</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#tips">Safety Tips</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME PAGE -->
+    <main>
+
+        <section id="home" class="hero">
+            <h1>Stay Secure.</h1>
+
+            <p>
+                Learn how to protect your passwords, personal data and
+                digital identity from common cyber threats.
+            </p>
+
+            <button id="start-learning-btn">
+                Start Learning
+            </button>
+        </section>
+
+
+        <!-- LOGIN / SIGN UP - HIDDEN FIRST -->
+        <section id="auth-section" class="auth-section" style="display: none;">
+
+            <div class="auth-box">
+
+                <h2>Login / Sign Up</h2>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                    required
+                >
+
+                <button id="signup-btn">
+                    Sign Up
+                </button>
+
+                <br><br>
+
+                <button id="login-btn">
+                    Login
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEARN - HIDDEN FIRST -->
+        <section id="learn" style="display: none;">
+
+            <div class="container">
+
+                <h2>Learn About Cybersecurity</h2>
+
+                <div class="cards">
+
+                    <div class="card">
+                        <h3>🎣 Phishing</h3>
+                        <p>
+                            Learn how to identify fake emails, messages
+                            and suspicious links.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>🔐 Password Security</h3>
+                        <p>
+                            Use strong passwords and never share your
+                            password with anyone.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>🛡️ Malware</h3>
+                        <p>
+                            Protect your devices from harmful software
+                            and viruses.
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <h3>🌐 Safe Browsing</h3>
+                        <p>
+                            Visit trusted websites and avoid suspicious
+                            downloads.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUIZ - HIDDEN FIRST -->
+        <section id="quiz" style="display: none;">
+
+            <div class="container">
+
+                <h2>Cybersecurity Quiz</h2>
+
+                <div class="quiz-box">
+
+                    <h3>
+                        What should you do before clicking a suspicious link?
+                    </h3>
+
+                    <button class="answer correct">
+                        Verify the sender and link
+                    </button>
+
+                    <button class="answer">
+                        Share it with strangers
+                    </button>
+
+                    <p id="quiz-result"></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SAFETY TIPS - HIDDEN FIRST -->
+        <section id="tips" class="tips" style="display: none;">
+
+            <div class="container">
+
+                <h2>Daily Safety Tips</h2>
+
+                <ul>
+                    <li>✓ Never share OTPs or passwords.</li>
+                    <li>✓ Keep software and devices updated.</li>
+                    <li>✓ Use two-factor authentication.</li>
+                    <li>✓ Verify suspicious messages before responding.</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 CyberAware Portal | Learn. Protect. Stay Secure.
+    </footer>
+
+
+    <!-- JAVASCRIPT FILES -->
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
+
